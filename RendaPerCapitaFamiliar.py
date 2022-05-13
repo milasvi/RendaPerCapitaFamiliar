@@ -10,7 +10,7 @@ soma = 0
 
 while contador < proletario:
     contador = contador + 1
-    salario  = int(input(f'Digite o {contador}° salário.'))
+    salario  = float(input(f'Digite o {contador}° salário.'))
     soma = soma + salario
     renda = soma / pessoas
 print(f'Sua renda per capita familiar é de {renda}')
